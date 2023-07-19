@@ -20,12 +20,6 @@ export const Words = () => {
     setCurrentAudio(audio);
   };
 
-  const pauseAudio = () => {
-    if (currentAudio) {
-      currentAudio.pause();
-    }
-  };
-
   const stopAudio = () => {
     if (currentAudio) {
       currentAudio.pause();
@@ -37,14 +31,13 @@ export const Words = () => {
       {words.map((word) => (
         <StyledWord key={word.id}>
           <StyledAta>
-            <img src={word.img} alt={word.nome} />
+            <img src={word.img} alt="imagem da igreja" />
             <p>{word.nome}</p>
             <p>{word.data}</p>
             <p>{word.word}</p>
           </StyledAta>
           <StyledContainerButton>
             <button onClick={() => playAudio(word.audio)}>Ouvir</button>
-            <button onClick={pauseAudio}>Pausar</button>
             <button onClick={stopAudio}>Parar</button>
           </StyledContainerButton>
         </StyledWord>
