@@ -15,16 +15,16 @@ export const StyledHeader = styled.header`
     img {
       width: 100vw;
       max-width: none;
-      height: 70px;
+      height: 75px;
     }
 
     figcaption {
       position: absolute;
       top: 7%;
-      left: 50%;
+      left: 30%;
       transform: translate(-50%, -50%);
       color: whitesmoke;
-      font-weight: 700;
+      font-weight: 900;
       text-align: center;
     }
   }

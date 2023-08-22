@@ -8,7 +8,7 @@ Este repositório contém uma aplicação desenvolvida em React.
 
 - Foi feito um map para renderizar o data
 
-- Estilizado com Styled Components
+- Estilizado com Styled Components, ainda em desenvolvimento
 
 Link: <https://peregrino.vercel.app/>
 

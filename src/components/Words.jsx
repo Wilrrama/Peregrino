@@ -18,6 +18,11 @@ export const Words = () => {
     const audio = new Audio(audioSrc);
     audio.play();
     setCurrentAudio(audio);
+    audio.addEventListener("blur", function () {
+      if (this.paused) {
+        this.play();
+      }
+    });
   };
 
   const stopAudio = () => {
@@ -32,8 +37,8 @@ export const Words = () => {
         <StyledWord key={word.id}>
           <StyledAta>
             <img src={word.img} alt="imagem da igreja" />
-            <p>{word.nome}</p>
-            <p>{word.data}</p>
+            <h5>{word.nome}</h5>
+            <h6>{word.data}</h6>
             <p>{word.word}</p>
           </StyledAta>
           <StyledContainerButton>

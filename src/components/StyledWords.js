@@ -10,9 +10,10 @@ export const StyledWords = styled.ul`
 `;
 
 export const StyledWord = styled.li`
-  border: 1px solid green;
+  //border: 1px solid green;
   border-radius: 4px;
   display: flex;
+  gap: 5px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -23,10 +24,15 @@ export const StyledAta = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   img {
     font-size: 10px;
-    width: 70px;
-    height: 50px;
+    width: 120px;
+    height: 80px;
+  }
+
+  h5 {
+    font-size: 12px;
   }
 
   p {
@@ -43,5 +49,18 @@ export const StyledContainerButton = styled.div`
     width: 35px;
     height: 20px;
     font-size: 10px;
+  }
+
+  :focus {
+    color: whitesmoke;
+    border: 1px green solid;
+    background: green;
+  }
+
+  :hover {
+    color: green;
+    color: whitesmoke;
+    border: 1px green solid;
+    background: green;
   }
 `;
