@@ -26,8 +26,143 @@ import audio1708 from "../assets/audio/17-08.ogg";
 import audio1908 from "../assets/audio/19-08.ogg";
 import audio2008 from "../assets/audio/20-08.ogg";
 import audio2108 from "../assets/audio/21-08.ogg";
+import audio2408 from "../assets/audio/24-08.opus";
+import audio2608 from "../assets/audio/26-08.opus";
+import audio2808 from "../assets/audio/28-08.opus";
+import audio0209 from "../assets/audio/02-09.opus";
+import audio0309 from "../assets/audio/04-09.opus";
+import audio0409 from "../assets/audio/044-09.opus";
+import audio0609 from "../assets/audio/06-09.opus";
+import audio1009 from "../assets/audio/10-09.opus";
+import audio1109 from "../assets/audio/11-09.opus";
+import audio1409 from "../assets/audio/14-09.opus";
+import audio1609 from "../assets/audio/16-09.opus";
+import audio1709 from "../assets/audio/17-09.opus";
+import audio2109 from "../assets/audio/21-09.opus";
+import audio2809 from "../assets/audio/28-09.opus";
+import audio3009 from "../assets/audio/30-09.opus";
 
 export const words = [
+  {
+    id: 40,
+    img: a1,
+    data: "30/09/2023",
+    nome: "Irmão de Sorocaba",
+    word: "Jó cap 29",
+    audio: audio3009,
+  },
+  {
+    id: 39,
+    img: a1,
+    data: "28/09/2023",
+    nome: "Irmão jd Santa Clara",
+    word: "Eclesiastes cap 12",
+    audio: audio2809,
+  },
+  {
+    id: 38,
+    img: a1,
+    data: "21/09/2023",
+    nome: "Irmão ...",
+    word: "Eclesiastes cap 12",
+    audio: audio2109,
+  },
+  {
+    id: 37,
+    img: a1,
+    data: "17/09/2023",
+    nome: "Irmão Paulão",
+    word: "1 Samuel cap 2 v6",
+    audio: audio1709,
+  },
+  {
+    id: 36,
+    img: a1,
+    data: "16/09/2023",
+    nome: "Irmão Joseph ",
+    word: "Jó cap6 V7,8,9,10",
+    audio: audio1609,
+  },
+  {
+    id: 35,
+    img: a1,
+    data: "14/09/2023",
+    nome: "Irmão André",
+    word: "Jó cap6 V7,8,9,10",
+    audio: audio1409,
+  },
+  {
+    id: 34,
+    img: a2,
+    data: "11/09/2023",
+    nome: "Irmão ....",
+    word: "1 Samuel cap 17",
+    audio: audio1109,
+  },
+  {
+    id: 33,
+    img: a1,
+    data: "10/09/2023",
+    nome: "Irmão de Sumaré",
+    word: "Atos apostos cap 12",
+    audio: audio1009,
+  },
+  {
+    id: 32,
+    img: a3,
+    data: "06/09/2023",
+    nome: "Irmão Osvaldo ",
+    word: "2 Reis cap 6",
+    audio: audio0609,
+  },
+  {
+    id: 31,
+    img: a2,
+    data: "04/09/2023",
+    nome: "Irmão Silas",
+    word: "Salmos. Cap30 v4 5",
+    audio: audio0409,
+  },
+  {
+    id: 30,
+    img: a1,
+    data: "03/09/2023",
+    nome: "Irmão Paulão",
+    word: "Juízes cap6 v11",
+    audio: audio0309,
+  },
+  {
+    id: 30,
+    img: a1,
+    data: "02/09/2023",
+    nome: "Irmão de São Paulo",
+    word: "Busca de dons",
+    audio: audio0209,
+  },
+  {
+    id: 29,
+    img: a2,
+    data: "28/08/2023",
+    nome: "Irmão Rodrigo",
+    word: "Salmo 40 V 17",
+    audio: audio2808,
+  },
+  {
+    id: 28,
+    img: a2,
+    data: "26/08/2023",
+    nome: "Irmão Fora",
+    word: "João cap 11",
+    audio: audio2608,
+  },
+  {
+    id: 27,
+    img: a1,
+    data: "21/08/2023",
+    nome: "Irmão de Santos",
+    word: "2 Samuel cap 3",
+    audio: audio2408,
+  },
   {
     id: 26,
     img: a2,
