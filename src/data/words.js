@@ -41,8 +41,314 @@ import audio1709 from "../assets/audio/17-09.opus";
 import audio2109 from "../assets/audio/21-09.opus";
 import audio2809 from "../assets/audio/28-09.opus";
 import audio3009 from "../assets/audio/30-09.opus";
+import audio0110 from "../assets/audio/01-10.opus";
+import audio0210 from "../assets/audio/02-10.opus";
+// import audio0410 from "../assets/audio/04-10.opus";
+import audio0510 from "../assets/audio/05-10.opus";
+import audio0810 from "../assets/audio/08-10.opus";
+import audio1410 from "../assets/audio/14-10.opus";
+// import audio1610 from "../assets/audio/16-10.opus";
+import audio1910 from "../assets/audio/19-10.opus";
+import audio2210 from "../assets/audio/22-10.opus";
+import audio2310 from "../assets/audio/23-10.opus";
+import audio2410 from "../assets/audio/23-10.opus";
+import audio2610 from "../assets/audio/26-10.opus";
+import audio3010 from "../assets/audio/30-10.opus";
+import audio0111 from "../assets/audio/01-11.opus";
+import audio0411 from "../assets/audio/04-11.opus";
+import audio0511 from "../assets/audio/05-11.opus";
+import audio0611 from "../assets/audio/06-11.opus";
+import audio1111 from "../assets/audio/11-11.opus";
+import audio1211 from "../assets/audio/12-11.opus";
+import audio1311 from "../assets/audio/13-11.opus";
+import audio1611 from "../assets/audio/16-11.opus";
+import audio2011 from "../assets/audio/20-11.opus";
+import audio2311 from "../assets/audio/23-11.opus";
+import audio2711 from "../assets/audio/27-11.opus";
+import audio3011 from "../assets/audio/30-11.opus";
+import audio0212 from "../assets/audio/02-12.opus";
+import audio0312 from "../assets/audio/03-12.opus";
+import audio0412 from "../assets/audio/04-12.opus";
+import audio0712 from "../assets/audio/07-12.opus";
+import audio0912 from "../assets/audio/09-12.opus";
+import audio1612 from "../assets/audio/16-12.opus";
+import audio1712 from "../assets/audio/17-12.opus";
+import audio2112 from "../assets/audio/21-12.opus";
+import audio2412 from "../assets/audio/24-12.opus";
 
 export const words = [
+  {
+    id: 71,
+    img: a2,
+    data: "24/12/2023",
+    nome: "Inocoop",
+    word: "Isaias cap 38",
+    audio: audio2412,
+  },
+  {
+    id: 70,
+    img: a1,
+    data: "21/12/2023",
+    nome: "Irmão Paulo, Nova Veneza, Sumaré",
+    word: "2 reis cap 7 v11",
+    audio: audio2112,
+  },
+  {
+    id: 70,
+    img: a1,
+    data: "17/12/2023",
+    nome: "Irmão Fabiano",
+    word: "Marcos cap 2 v 23",
+    audio: audio1712,
+  },
+  {
+    id: 69,
+    img: a1,
+    data: "16/12/2023",
+    nome: "Irmão Fabiano",
+    word: "Gálatas cap 4",
+    audio: audio1612,
+  },
+  {
+    id: 68,
+    img: a1,
+    data: "09/12/2023",
+    nome: "Irmão Fabiano",
+    word: "Neemias cap 2",
+    audio: audio0912,
+  },
+  {
+    id: 67,
+    img: a2,
+    data: "07/12/2023",
+    nome: "Irmão de Jardinsl",
+    word: "Zacarias cap 3",
+    audio: audio0712,
+  },
+  {
+    id: 66,
+    img: a2,
+    data: "04/12/2023",
+    nome: "Irmão Miguel",
+    word: "Neemias cap 2",
+    audio: audio0412,
+  },
+  {
+    id: 65,
+    img: a1,
+    data: "03/12/2023",
+    nome: "Afonso Piau",
+    word: "Ezequiel cap 37",
+    audio: audio0312,
+  },
+  {
+    id: 64,
+    img: a1,
+    data: "02/12/2023",
+    nome: "Leandro campinas-são José",
+    word: "1 reis cap 22",
+    audio: audio0212,
+  },
+  {
+    id: 63,
+    img: a1,
+    data: "30/11/2023",
+    nome: "Porto Ferreira Ir. Marcelo",
+    word: "2 Lucas cap 8 V40",
+    audio: audio3011,
+  },
+  {
+    id: 62,
+    img: a2,
+    data: "27/11/2023",
+    nome: "Irmão Divino",
+    word: "Apocalipse cap 3 v7",
+    audio: audio2711,
+  },
+  {
+    id: 61,
+    img: a1,
+    data: "23/11/2023",
+    nome: "Irmão Fabiano",
+    word: "",
+    audio: audio2311,
+  },
+  {
+    id: 60,
+    img: a2,
+    data: "20/11/2023",
+    nome: "Irmão de Carmolândia, araguai",
+    word: "Jeremias cap 18",
+    audio: audio2011,
+  },
+  {
+    id: 59,
+    img: a1,
+    data: "16/11/2023",
+    nome: "Irmão Fabiano",
+    word: "Lucas cap 19 v 41",
+    audio: audio1611,
+  },
+  {
+    id: 58,
+    img: a2,
+    data: "13/11/2023",
+    nome: "Irmão ",
+    word: "2 João cap 8",
+    audio: audio1311,
+  },
+  {
+    id: 57,
+    img: a1,
+    data: "12/11/2023",
+    nome: "Irmão Samuel",
+    word: "Lucas cap10",
+    audio: audio1211,
+  },
+  {
+    id: 57,
+    img: a1,
+    data: "11/11/2023",
+    nome: "Irmão Fabiano",
+    word: "Genesis cap 50",
+    audio: audio1111,
+  },
+  {
+    id: 56,
+    img: a2,
+    data: "06/11/2023",
+    nome: "Irmão cooperador de jovens",
+    word: "2reis cap2",
+    audio: audio0611,
+  },
+  {
+    id: 55,
+    img: a1,
+    data: "05/11/2023",
+    nome: "Irmão Irmão Elcio ",
+    word: "São Mateus cap5",
+    audio: audio0511,
+  },
+  {
+    id: 54,
+    img: a1,
+    data: "04/11/2023",
+    nome: "Irmão de Carapicuíba",
+    word: "Provérbios cap 6 v16, 19",
+    audio: audio0411,
+  },
+  {
+    id: 54,
+    img: a3,
+    data: "01/11/2023",
+    nome: "Irmão ...",
+    word: "Salmos 121",
+    audio: audio0111,
+  },
+  {
+    id: 53,
+    img: a2,
+    data: "30/10/2023",
+    nome: "Irmão Miguel",
+    word: "2 cronicas cap20",
+    audio: audio3010,
+  },
+  {
+    id: 52,
+    img: a1,
+    data: "26/10/2023",
+    nome: "Irmão Fabiano",
+    word: "Atos apóstolos cap 6",
+    audio: audio2610,
+  },
+  {
+    id: 51,
+    img: a2,
+    data: "24/10/2023",
+    nome: "Irmão de Valinhos castelo",
+    word: "2 João cap 20 v19",
+    audio: audio2410,
+  },
+  {
+    id: 50,
+    img: a2,
+    data: "23/10/2023",
+    nome: "Irmão Júlio porteiro do Bonfim",
+    word: "Isaías Cap 43",
+    audio: audio2310,
+  },
+  {
+    id: 49,
+    img: a1,
+    data: "22/10/2023",
+    nome: "Irmão Elcio",
+    word: "Epístola 1 Timóteo cap4",
+    audio: audio2210,
+  },
+  {
+    id: 48,
+    img: a1,
+    data: "19/10/2023",
+    nome: "Irmão Edson, pq Gabriela, Jandira",
+    word: "Genesis cap 33",
+    audio: audio1910,
+  },
+  // {
+  //   id: 47,
+  //   img: a2,
+  //   data: "16/10/2023",
+  //   nome: "Irmão Miguel ",
+  //   word: "Genesis cap 22",
+  //   audio: audio1610,
+  // },
+  {
+    id: 46,
+    img: a2,
+    data: "14/10/2023",
+    nome: "Valdemar",
+    word: "Lucas cap8 v 22",
+    audio: audio1410,
+  },
+  {
+    id: 45,
+    img: a2,
+    data: "08/10/2023",
+    nome: "Irmão Miguel",
+    word: "Genesis cap29 v21",
+    audio: audio0810,
+  },
+  {
+    id: 44,
+    img: a3,
+    data: "05/10/2023",
+    nome: "Fabiano",
+    word: "....",
+    audio: audio0510,
+  },
+  // {
+  //   id: 43,
+  //   img: a3,
+  //   data: "04/10/2023",
+  //   nome: "Fabiano",
+  //   word: "....",
+  //   audio: audio0410,
+  // },
+  {
+    id: 42,
+    img: a2,
+    data: "02/10/2023",
+    nome: "Irmão de campinas",
+    word: "Lucas 12 v49",
+    audio: audio0210,
+  },
+  {
+    id: 41,
+    img: a2,
+    data: "01/10/2023",
+    nome: "Luiz Bordon",
+    word: "Salmos cap70",
+    audio: audio0110,
+  },
   {
     id: 40,
     img: a1,
